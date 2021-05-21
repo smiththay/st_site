@@ -1,4 +1,4 @@
-*{
+.background{
     font-family: 'Open Sans', sans-serif;
     background: rgb(0, 0, 0);
     background-image: url('./img/landing.jpg');
@@ -6,6 +6,11 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
   }
 
   .name{
@@ -13,16 +18,16 @@
       color: rgb(255, 249, 240);
       text-shadow: 2px 10px black;
       margin-top: 100px;
-      margin-left: 20%;
+      margin-left: -35%;
   }
-
+/* 
   .des{
       font-size: 40px;
       margin-top: -6%;
       margin-left: 42%;
       color: rgb(255, 153, 0);
       text-shadow: 2px 5px black;
-  }
+  } */
 
   .name:hover{
     text-shadow:2px 10px rgb(241, 157, 0);
