@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from './Navbar'
 import './Home.css'
 
 export default function Home() {
     return (
         <div>
+        <Navbar />
             <nav className="navbar">
                 <div className="container">
                     <a className="navbar-brand" href="#">
