@@ -5,7 +5,7 @@ import './Home.css'
 export default function Home() {
     return (
         <div>
-        <Navbar />
+            <Navbar />
             <nav className="navbar">
                 <div className="container">
                     <a className="navbar-brand" href="#">
@@ -39,22 +39,22 @@ export default function Home() {
                 </div>
             </section>
 
-            <div className="container-1 bg-dark pt-5 pb-5">
+            <div className="container-1 pt-5 pb-5 text-center">
                 <div className='row mt-5 mb-5 '>
 
                 </div>
                 <div className="row mt-5 mb-5 ">
-                    <div className="col-md-6 col-sm-12 pb-3">
+                    <div className="col-md-6 col-sm-12 mt-5">
                         <img src='/st-photo.jpg' className="w-50 card-img-top img-fluid rounded-circle mw-25" alt="..." />
                     </div>
                     <div className="col-md-6 col-sm-12 pb-3 text-white">
                         <h2><b><i>Yes, Smith Is My First Name</i></b></h2>
-                        <h4 className='mt-5 pt-5 mx-5'>I always knew at a young age that I was going to create. There was always something that I was building or drawing. My mind was always filled with ideas.
+                        <h5 className='mt-5 pt-5 mx-5'>I always knew at a young age that I was going to create. There was always something that I was building or drawing. My mind was always filled with ideas.
                         As I started getting older, I realized I had a knack for it. Classmates were always coming to me for ideas or for help sketching. It was never a burden because I enjoyed it so much.
                         The more I continued to live life, I noticed I had an insatiable desire to always learn. It never really mattered what, if I didn't know it, I wanted to learn. Technology always seemed to
                         fascinate it me. From my first game boy to my first laptop, I always had an interest in the 'what next'. I noticed it growing at a rapid pace. It hit me one day. I enjoy creating, I enjoy
                         learning, and I enjoy tech. It made sense that I become a developer, and here I am now.
-                     </h4>
+                     </h5>
                     </div>
                     <div className='row mt-5 mb-5 '>
 
@@ -64,13 +64,12 @@ export default function Home() {
 
 
             <section className="bgimage">
-                <div className="container-fluid">
-                    <div className="row">
-                        <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            {/* <div className='smith'>I'm Smith.</div> */}
-                            {/* <div class='sub'><i>Full Stack Web Developer</i></div> */}
-                        </div>
-                    </div>
+                <div className="skills">
+                <b> my <br />skills</b>
+                    <br />
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+                    </svg>
                 </div>
             </section>
 
@@ -78,13 +77,9 @@ export default function Home() {
 
 
 
-            <div className="container">
-                <div className='row'>
-                    <div className='col'>
-                        <h1> <b>Skills:</b></h1>
-                    </div>
-                </div>
-                <div className="row mb-5">
+            <div className="container text-center">
+
+                <div className="row mt-5 pt-5 mb-5">
                     <div className="col pb-3">
                         <img src='/html.png' className="logo img-fluid " alt="html" />
                         <img src='/css.png' className="clogo  img-fluid" alt="css" />
@@ -105,7 +100,7 @@ export default function Home() {
             </div>
 
 
-
+            {/* 
             <div className='container'>
                 <div className='row'>
                     <div className='col'>
@@ -121,14 +116,14 @@ export default function Home() {
                     <h2>more coming soon...</h2>
                 </div>
 
-            </div>
+            </div> */}
 
 
 
 
             <div className="footer container-fluid pt-5 text-light ">
                 <footer>
-                    <div className="row my-5 py-5 bg-secondary">
+                    <div className="row my-5 py-5 justify-content-center bg-secondary">
                         <div className="col-11">
                             <div className="row">
                                 <div className="col-xl-8 col-md-4 col-sm-4 col-12 my-auto ">
@@ -152,8 +147,8 @@ export default function Home() {
 
 
                             <div className="row ">
-                                <div className="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end">
-                                    <p className="social  mb-0 pb-0 bold-text">
+                                <div className="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end my-5">
+                                    <p className="social mb-0 pb-0 bold-text">
 
                                         <span className="mx-2"><a href='https://github.com/smiththay' target='_blank' style={{ color: 'white' }}><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
                                             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />

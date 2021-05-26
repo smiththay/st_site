@@ -15,13 +15,19 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className=" nav navbar-nav ms-auto navbar-right">
                             <li className="nav-item">
-                                <Link className="nav-link" to="/home">Home</Link>
+                                {/* <Link className="nav-link" style={{color: 'white'}} to="/home">Home</Link> */}
+                                <button className="btn btn-outline-warning" type="submit"><Link style={{color: 'grey', textDecoration: 'none'}} to="/home">Home</Link></button>
+
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/portfolio">Portfolio</Link>
+                            <button className="btn btn-outline-warning mx-2" type="submit"><Link style={{color: 'grey', textDecoration: 'none'}} to="/portfolio">Portfolio</Link></button>
+
+                                {/* <Link className="nav-link" style={{color: 'white'}} to="/portfolio">Portfolio</Link> */}
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/blog">Blog</Link>
+                            <button className="btn btn-outline-warning" type="submit"><Link style={{color: 'grey', textDecoration: 'none'}} to="/blog">Blog</Link></button>
+
+                                {/* <Link className="nav-link" style={{color: 'white'}} to="/blog">Blog</Link> */}
                             </li>
                         </ul>
                     </div>
