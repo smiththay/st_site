@@ -7,7 +7,7 @@ export default function Home() {
     return (
         <div>
             <Navbar />
-            <nav className="navbar">
+            {/* <nav className="navbar">
                 <div className="container">
                     <a className="navbar-brand" href="#">
                         <img src="/logo.PNG" alt="" className="mt-3" width="60" />
@@ -27,7 +27,7 @@ export default function Home() {
                         </div>
                     </div>
                 </div>
-            </nav>
+            </nav> */}
 
             <section className="bgtop">
                 <div className="container-fluid">
@@ -49,7 +49,7 @@ export default function Home() {
                         <img src='/st-photo.jpg' className="w-50 card-img-top img-fluid rounded-circle mw-25" alt="..." />
                     </div>
                     <div className="col-md-6 col-sm-12 pb-3 text-white">
-                        <h2><b><i>Yes, Smith Is My First Name</i></b></h2>
+                        <h2><b><i className='yes'>Yes, Smith Is My First Name</i></b></h2>
                         <h5 className='mt-5 pt-5 mx-5'>I always knew at a young age that I was going to create. There was always something that I was building or drawing. My mind was always filled with ideas.
                         As I started getting older, I realized I had a knack for it. Classmates were always coming to me for ideas or for help sketching. It was never a burden because I enjoyed it so much.
                         The more I continued to live life, I noticed I had an insatiable desire to always learn. It never really mattered what, if I didn't know it, I wanted to learn. Technology always seemed to
@@ -57,9 +57,7 @@ export default function Home() {
                         learning, and I enjoy tech. It made sense that I become a developer, and here I am now.
                      </h5>
                     </div>
-                    <div className='row mt-5 mb-5 '>
-
-                    </div>
+                  
                 </div>
             </div>
 
@@ -78,10 +76,10 @@ export default function Home() {
 
 
 
-            <div className="container text-center">
+            <div className="container-2 pt-5 text-center">
 
-                <div className="row mt-5 pt-5 mb-5">
-                    <div className="col pb-3">
+                <div className="row pt-5">
+                    <div className="col ">
                         <img src='/html.png' className="logo img-fluid " alt="html" />
                         <img src='/css.png' className="clogo  img-fluid" alt="css" />
                         <img src='/js.png' className="logo img-fluid" alt="js" />
@@ -89,8 +87,8 @@ export default function Home() {
                         <img src='/firebase.png' className="logo img-fluid" alt="firebase" />
                     </div>
                 </div>
-                <div className="row mt-5 mb-5">
-                    <div className="col pb-3">
+                <div className="row pt-5">
+                    <div className="col">
                         <img src='/php.png' className="logo img-fluid " alt="php" />
                         <img src='/mysql.png' className="clogo  img-fluid" alt="mysql" />
                         <img src='/laravel.png' className="logo img-fluid" alt="laravel" />

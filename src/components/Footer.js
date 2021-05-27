@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
     return (
         <div>
-            <div className="footer container-fluid pt-5 text-light ">
+            <div className="footer container-fluid text-light ">
                 <footer>
                     <div className="row my-5 py-5 justify-content-center bg-secondary">
                         <div className="col-11">
@@ -16,21 +16,35 @@ export default function Footer() {
                                 <div className="col-xl-2 col-md-4 col-sm-4 col-12">
                                     <h6 className="mb-3 mb-lg-4 bold-text "><b>MENU</b></h6>
                                     <ul className="list-unstyled">
-                                        <li><a href='https://smiththaysite.web.app/' target='_blank' style={{ color: 'white', textDecoration: 'none' }}>Blog</a></li>
-                                        <li><a href='https://smiththaysite.web.app/' target='_blank' style={{ color: 'white', textDecoration: 'none' }}>Portfolio</a></li>
+                                        <li>
+                                            <Link style={{ color: 'white', textDecoration: 'none' }} to="/home">Home</Link>
+                                        </li>
+                                        <li>
+                                            <Link style={{ color: 'white', textDecoration: 'none' }} to="/portfolio">Portfolio</Link>
+                                        </li>
+                                        <li>
+                                            <Link style={{ color: 'white', textDecoration: 'none' }} to="/blog">Blog</Link>
+                                        </li>
                                     </ul>
                                 </div>
                                 <div className="col-xl-2 col-md-4 col-sm-4 col-12">
-                                    <h6 className="mb-3 mb-lg-4 bold-text mt-sm-0 mt-5"><b>ADDRESS</b></h6>
-                                    <p className="mb-1">348 E Main St, <br /> Lexington, KY</p>
 
+                                    <h5 className="mb-3 mb-lg-4 bold-text mt-sm-0 "><b>Links</b></h5>
+                                    <ul className="list-unstyled">
+                                        <li>
+                                            <a href='https://www.linkedin.com/in/smiththay/' target='_blank' style={{ color: 'white', textDecoration: 'none' }}> LinkedIn</a>
+                                        </li>
+                                        <li>
+                                            <a href='https://github.com/smiththay' target='_blank' style={{ color: 'white', textDecoration: 'none' }}> GitHub</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
 
 
 
                             <div className="row ">
-                                <div className="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 mt-5 order-sm-1 order-3 align-self-end my-5">
+                                <div className="col-xl-8 col-md-4 col-sm-4 col-auto my-md-0 order-sm-1 order-3 align-self-end my-5">
                                     <p className="social mb-0 pb-0 bold-text">
 
                                         <span className="mx-2"><a href='https://github.com/smiththay' target='_blank' style={{ color: 'white' }}><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
@@ -43,9 +57,7 @@ export default function Footer() {
                                     </p>
                                     <small className="rights"><span>&#174;</span> Smith Thay All Rights Reserved.</small>
                                 </div>
-                                <div className="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
-                                    <h6 className="mt-55 mt-2 bold-text"><b>AWESOME INC</b></h6><small> <span><i className="fa fa-envelope" aria-hidden="true"></i></span>info@awesomeinc.org</small>
-                                </div>
+
                                 <div className="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3 ">
                                     <h6 className=" bold-text"><b>SMITH THAY</b></h6><small><span><i className="fa fa-envelope" aria-hidden="true"></i></span> contact.smith.thay@gmail.com</small>
                                 </div>
