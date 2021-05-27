@@ -33,8 +33,17 @@ export default function Home() {
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                            {/* <div className='smith'>I'm Smith.</div> */}
-                            {/* <div class='sub'><i>Full Stack Web Developer</i></div> */}
+                            <div class="mouse_scroll">
+
+                                <div class="mouse">
+                                    <div class="wheel"></div>
+                                </div>
+                                <div>
+                                    <span class="m_scroll_arrows unu"></span>
+                                    <span class="m_scroll_arrows doi"></span>
+                                    <span class="m_scroll_arrows trei"></span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -57,14 +66,14 @@ export default function Home() {
                         learning, and I enjoy tech. It made sense that I become a developer, and here I am now.
                      </h5>
                     </div>
-                  
+
                 </div>
             </div>
 
 
             <section className="bgimage">
                 <div className="skills">
-                <b> my <br />skills</b>
+                    <b> my <br />skills</b>
                     <br />
                     <svg xmlns="http://www.w3.org/2000/svg" width="60" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
@@ -120,7 +129,7 @@ export default function Home() {
 
 
 
-            
+
             <Footer />
 
         </div>
