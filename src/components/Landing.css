@@ -17,8 +17,8 @@
       font-size: 100px;
       color: rgb(255, 249, 240);
       text-shadow: 2px 10px black;
-      margin-top: 100px;
-      margin-left: -35%;
+      margin-top: 5%;
+      margin-left: 24%;
   }
 /* 
   .des{
@@ -31,5 +31,12 @@
 
   .name:hover{
     text-shadow:2px 10px rgb(241, 157, 0);
+  }
+
+  .full{
+    color: rgb(241, 157, 0);
+    font-size: 25px;
+    margin-top: -2%;
+    margin-left: 26%;
   }
 
