@@ -38,10 +38,11 @@ export default function Home() {
                                 <div class="mouse">
                                     <div class="wheel"></div>
                                 </div>
-                                <div>
+                                <div><a href='#about'>
                                     <span class="m_scroll_arrows unu"></span>
                                     <span class="m_scroll_arrows doi"></span>
                                     <span class="m_scroll_arrows trei"></span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -49,7 +50,7 @@ export default function Home() {
                 </div>
             </section>
 
-            <div className="container-1 pt-5 pb-5 text-center">
+            <div className="container-1 pt-5 pb-5 text-center" id='about'>
                 <div className='row mt-5 mb-5 '>
 
                 </div>
@@ -57,7 +58,7 @@ export default function Home() {
                     <div className="col-md-6 col-sm-12 mt-5">
                         <img src='/st-photo.jpg' className="w-50 card-img-top img-fluid rounded-circle mw-25" alt="..." />
                     </div>
-                    <div className="col-md-6 col-sm-12 pb-3 text-white">
+                    <div className="col-md-6 col-sm-12 pb-3 text-white" >
                         <h2><b><i className='yes'>Yes, Smith Is My First Name</i></b></h2>
                         <h5 className='mt-5 pt-5 mx-5'>I always knew at a young age that I was going to create. There was always something that I was building or drawing. My mind was always filled with ideas.
                         As I started getting older, I realized I had a knack for it. Classmates were always coming to me for ideas or for help sketching. It was never a burden because I enjoyed it so much.
