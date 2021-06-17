@@ -6,7 +6,32 @@ export default function Blog() {
     return (
         <div>
             <Navbar />
+
+            
+
+
+
+
             <div class="container mt-5 pt-5 px-5">
+
+
+
+            <div class="row pt-5">
+                    <div class="col pt-5">
+                        <h3>Post-Bootcamp Month One - "The One About June" </h3>
+
+                        <p>Month One, where did the time go? It was a month that I felt went much better than I had anticipated. After demo day I was approached by a company and was offered an interview after demo day was over. It felt good to know 
+                        that the hard work that I had put in on my final project was being well received. I was offered a job but unfortunately, the company was not going to be a good fit. I remember feeling like I didn't have options when it came to the job search. I was reminded that I had a lot to bring to the table and I didn't have
+                        to have this beggars can't be choosers mentality. I was also approached by another company but it was for a solo dev job. Honestly, I feel like I need to work in a team and be surrounded by more seasoned developers. So I turned down that interview. I have applied to many of places, been ghosted by some, rejected by some, but also had interviews with a few
+                        as well. One company would not work out, and I am currently in the process of interviewing with two companies as I type this. You will just have to come back next month to see what happens haha. I've been working on my site, building some JS projects, and solidifying my knowledge in PHP. I hope to build more projects in the coming month, get better at solving algorithm problems (codewars!!!), learn a new programming language,
+                        and most importantly, land a job!</p>
+
+                    </div>
+                </div>
+
+
+
+            <hr></hr>
 
                 <div class="row pt-5">
                     <div class="col pt-5">

@@ -15,15 +15,15 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className=" nav navbar-nav ms-auto navbar-right">
                             <li className="nav-item">
-                                <button className="btn btn-outline-warning" type="submit"><Link style={{color: 'grey', textDecoration: 'none'}} to="/home">Home</Link></button>
+                                <button className="btn btn-outline-warning"><Link style={{color: 'white', textDecoration: 'none'}} to="/home">Home</Link></button>
 
                             </li>
                             <li className="nav-item">
-                            <button className="btn btn-outline-warning mx-2" type="submit"><Link style={{color: 'grey', textDecoration: 'none'}} to="/portfolio">Portfolio</Link></button>
+                            <button className="btn btn-outline-warning mx-2"><Link style={{color: 'white', textDecoration: 'none'}} to="/portfolio">Portfolio</Link></button>
 
                             </li>
                             <li className="nav-item">
-                            <button className="btn btn-outline-warning" type="submit"><Link style={{color: 'grey', textDecoration: 'none'}} to="/blog">Blog</Link></button>
+                            <button className="btn btn-outline-warning"><Link style={{color: 'white', textDecoration: 'none'}} to="/blog">Blog</Link></button>
 
                             </li>
                         </ul>
